@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =========================
+# R
+# =========================
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# R package build files
+*.Rcheck/
+*.tar.gz
+
+# R markdown / knitr cache
+*_cache/
+cache/
+knitr-cache/
+figure/
+
+# renv
+renv/library/
+renv/staging/
